@@ -15,6 +15,11 @@ body{
 }
 
 .noticia-carousel{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imagem{
+    background-image: url(images/Mobile-login.jpg);
+    background-position: center center;
 }
