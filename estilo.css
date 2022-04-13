@@ -3,10 +3,10 @@ body{
 }
 #capa-principal{
     background: rgb(100,126,26);
-    background: linear-gradient(180deg, rgba(100,126,26,1) 0%, rgba(134,172,28,1) 100%);
+    background: linear-gradient(270deg, rgba(100,126,26,1) 0%, rgba(134,172,28,1) 100%);
     color:whiter;
 }
-.nav-link{
+.font-menu{
     font-size: 1.1em;
 }
 .nav-link:hover{
