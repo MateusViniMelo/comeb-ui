@@ -1,6 +1,8 @@
 body{
     font-family: 'Nunito', sans-serif;
+    background-color: #f0f2f5;
 }
+
 #capa-principal{
     background: rgb(100,126,26);
     background: linear-gradient(270deg, rgba(100,126,26,1) 0%, rgba(134,172,28,1) 100%);
