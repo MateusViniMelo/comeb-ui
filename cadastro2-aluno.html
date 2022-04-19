@@ -48,34 +48,64 @@
         </div>
        <div class="container">
            <div class="row justify-content-center">
-               <div class="col-4">
+               <div class="col-6">
                    <h2 class="mt-5 mb-0">Cadastro de aluno</h2>
-                   <h6 class="text-muted">Etapa 1ª - Validação da matrícula SIGAA</h6>
+                   <h6 class="text-muted">Etapa 2ª - Validação de dados pessoais</h6>
                    <div class="progress mt-3 mb-3">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                 </div>
-                   <div class="card">
-                    <div class="card-body p-3">
+                   <div class="card mb-3">
+                    <div class="card-body p-3 fs-6">
+                        <h5 class="card-title fw-bold mb-5 text-success">Dados Acadêmicos</h5>
                         <form>
+                            
                             <div class="row">
-                                <div class=" col-12 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label fw-bold">Matrícula <span class="text-danger">*</span></label>
-                                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">Informe a sua matrícula do SIGAA</div>
-                                  </div>
-                                  <div class="col-12 mb-3">
-                                    <label for="exampleInputPassword1" class="form-label fw-bold">CPF <span class="text-danger">*</span></label>
-                                    <input type="number" class="form-control" id="exampleInputPassword1">
+                                <div class="col-12 mb-3">
+                                    <label for="nome-teste" class="form-label fw-bold">Nome: </label>
+                                    <input type="text" readonly class="form-control-plaintext" id="nome-teste" value="Nome teste">
+                                    
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Matrícula </label>
+                                    <input type="number" readonly class="form-control-plaintext" value="999999999">
+                                    
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">CPF </label>
+                                    <input type="number" readonly class="form-control-plaintext" class="form-control" id="exampleInputPassword1" value="212121212121">
+                                </div> 
+                                <div class="col-12 mb-3">
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Curso</label>
+                                    <input type="text" readonly class="form-control-plaintext" class="form-control" id="exampleInputPassword1" value="Sistemas de Informação">
                                 </div>  
-                                  
+                                <div class="col-6 mb-3">
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Turno</label>
+                                    <input type="text" readonly class="form-control-plaintext" class="form-control" id="exampleInputPassword1" value="Noturno">
+                                </div> 
+                                <div class="col-6 mb-3">
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Semestre</label>
+                                    <input type="number" readonly class="form-control-plaintext" class="form-control" id="exampleInputPassword1" value="4">
+                                </div>   
                             </div>
                             
-                            <a href="cadastro2-aluno.html" class="btn btn-primary float-end"><i class="fa-solid fa-magnifying-glass"></i> Pesquisar</a>
+                            
                             
                         </form>
                     </div>
+                    <div class="card-footer text-center">
+                        Dados coletados no SIGAA, caso haja discrepância dos dados abra um chamado no SAGGITA
+                    </div>
                    </div>
-                   
+                   <div class="card">
+                       <div class="card-body p-3">
+                           <h5 class="card-title fw-bold mb-5 text-success">
+                               Dados Pessoais
+                           </h5>
+                            <div class="row">
+                                <p class="fw-bold ">Endereço</p>
+                            </div>
+                       </div>
+                   </div>
                </div>
            </div>
         </div>  
