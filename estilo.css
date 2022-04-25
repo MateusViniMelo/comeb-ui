@@ -26,6 +26,10 @@ body{
     background-position: center center;
 }
 
+#fundo{
+    background-color: #f0f2f5;
+}
+
 .icone-curso{
     font-size: 4em;
 }
